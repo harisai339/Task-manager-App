@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  color:black;
+  background-color: #63dfe3;
+}
+
+.task {
+  border: 1px solid #63dfe3;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
